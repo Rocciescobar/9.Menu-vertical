@@ -1,0 +1,65 @@
+/* 
+#f9a91a - Labora
+#f5f5f0 - fondo
+#e0e0d1 - hover
+#333 - active
+font-family - sans serif
+*/
+
+/* Aplicando estilos con selectores */
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  /* outline: 1px solid red; */
+  width: 200px;
+}
+
+ul {
+  /* utline: 1px solid yellow; */
+  line-height: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;  
+}
+
+li {
+  /*outline: 1px solid red;*/
+  background: #f5f5f0;
+}
+
+/* Estados de enlace: LoVe/HAte Link, visited, hover, active */
+
+a {
+  /*outline: 1px solid green;*/
+  color: #000;
+  display: block;  
+  padding-left: 10px;  
+  text-decoration: none;
+}
+
+a:hover {
+  background: #e0e0d1;
+}
+
+a:active {
+  background: #333;
+  color: #fff;
+}
+
+ul li:first-child {
+  background: #f9a91a;
+}
+
+ul li:first-child a {
+  color: #fff;
+}
+
+ul li:first-child a:hover {
+  color: #000;
+}
+
+ul li:first-child a:active {
+  color: #fff;
+}
